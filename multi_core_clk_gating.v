@@ -1,4 +1,4 @@
-//here the multicore has only  1 instruction but output is taken from all cores
+//here the multicore(of clock gating) has only  1 instruction but output is taken from all cores
 // the distribution(to which core the input to be given) 
 module multicore(clk,rst,instruction,wr_en,rd_en,data_out0,data_out1,data_out2,data_out3,data_empty,
 data_full,fifo_counter0,fifo_counter1,fifo_counter2,fifo_counter3,
